@@ -1,0 +1,116 @@
+@import "reset.css";
+
+body{
+
+margin: 0 auto 0 auto;
+position: relative;
+width: 1440px;
+height: 14822px;
+
+background: #FFFFFF;
+}
+
+h1{
+position: absolute;
+width: 735px;
+height: 160px;
+margin-left: 431px;
+margin-top: 309px;
+font-family: Futura PT;
+font-style: normal;
+font-weight: bold;
+font-size: 90px;
+}
+
+img{
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+}
+#start{
+  position: absolute;
+  width: 560px;
+  height: 40px;
+  margin-left: 445px;
+  margin-top: 406px;
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 46px;
+  color: #171717;
+}
+
+.t{
+  height: 560px;
+  left: 0px;
+  margin-top: 900px;
+  background-color: #FFDF35;
+  display: block;
+  width: 1440px;
+  position: relative;
+}
+h2{
+position: absolute;
+width: 640px;
+height: 40px;
+margin-left: 403px;
+top: 1593px;
+font-family: Futura PT;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 38px;
+/* or 59% */
+color: #171717
+}
+.p1{
+  position: absolute;
+width: 643px;
+height: 239px;
+margin-left: 213px;
+padding-top: 140px;
+font-family: Futura PT;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #000000;
+}
+
+.p2{
+  position: absolute;
+  width: 525px;
+  height: 130px;
+  margin-left: 700px;
+  top: 1868px;
+
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #171717;
+}
+.stolovka{
+position: absolute;
+width: 488px;
+height: 199px;
+margin-left: 212px;
+margin-top: 80px;
+font-family: Futura PT;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+color: #252525;
+}
+.fstolovka{
+position: absolute;
+width: 1016px;
+height: 571px;
+margin-left: 212px;
+top: 2201px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(покровкастоловая.png);
+background-blend-mode: color, normal;
+}
