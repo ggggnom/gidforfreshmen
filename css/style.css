@@ -1,116 +1,144 @@
 @import "reset.css";
 
-body{
 
-margin: 0 auto 0 auto;
+body{
 position: relative;
 width: 1440px;
 height: 14822px;
+margin: 0 auto;
 
-background: #FFFFFF;
+background: #FFFFFF
 }
 
-h1{
-position: absolute;
-width: 735px;
-height: 160px;
-margin-left: 431px;
-margin-top: 309px;
+
+.black{
+  background: #000;
+  width: 1100px;
+  height: 800px;
+  z-index: 1;
+  position: relative;
+  margin-top: -30px;
+  padding-left: 170px;
+  padding-right: 170px;
+
+}
+#one{
+  position: absolute;
+  width: 840px;
+height: 260px;
+z-index: 2;
+color: #FFFFFF;
+
+margin-top: 170px;
 font-family: Futura PT;
 font-style: normal;
 font-weight: bold;
-font-size: 90px;
+font-size: 70px;
+line-height: 70px;
 }
-
-img{
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 1440px;
-}
-#start{
-  position: absolute;
-  width: 560px;
-  height: 40px;
-  margin-left: 445px;
-  margin-top: 406px;
+#two{
   font-family: Futura PT;
   font-style: normal;
-  font-weight: normal;
-  font-size: 34px;
-  line-height: 46px;
-  color: #171717;
-}
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 70px;
+  position: absolute;
+  margin-top: 486px;
+  text-align: left;
+  color: #FFFFFF;
+  width: 500px;
+  height: 180px;
+  margin-left: 595px;
 
-.t{
-  height: 560px;
-  left: 0px;
-  margin-top: 900px;
-  background-color: #FFDF35;
-  display: block;
-  width: 1440px;
-  position: relative;
+}
+.vector32{
+  position: absolute;
+width: 566.2px;
+height: 112.72px;
+left: 315px;
+top: 719.78px;
+z-index: 2;
 }
 h2{
 position: absolute;
-width: 640px;
-height: 40px;
-margin-left: 403px;
-top: 1593px;
+width: 592px;
+height: 294px;
+left: calc(50% - 592px/2 + 16px);
+top: 257px;
 font-family: Futura PT;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+#pink{
+  position: absolute;
+width: 623.98px;
+height: 1274.45px;
+left: 348.5px;
+top: 747.91px;
+z-index: 3;
+}
+#end{
+  position: absolute;
+width: 30px;
+height: 44px;
+left: 953px;
+top: 1970px;
+}
+h4{
+  margin-top: 200px;
+  font-family: Futura PT;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 60px;
+color: #000000;
+width: 480px;
+height: 528px;
+margin-left: 170px;
+display: block;
+}
+#burger{
+display: block;
+width: 760.38px;
+height: 466.59px;
+margin-top: -620px;
+margin-left: 755px;
+z-index: 4;
+background: url(бургер-01.png);
+transform: rotate(-13.43deg);
+
+}
+#line3{
+  display: block;
+  margin-top: -515px;
+  margin-left: 850px;
+}
+#want{
+  display: block;
+  font-family: Futura PT;
 font-style: normal;
 font-weight: bold;
-font-size: 64px;
-line-height: 38px;
-/* or 59% */
-color: #171717
-}
-.p1{
-  position: absolute;
-width: 643px;
-height: 239px;
-margin-left: 213px;
-padding-top: 140px;
-font-family: Futura PT;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
+font-size: 90px;
+line-height: 70px;
 color: #000000;
-}
+margin: 430px 395px 0 395px;
+position: relative;
 
-.p2{
-  position: absolute;
-  width: 525px;
-  height: 130px;
-  margin-left: 700px;
-  top: 1868px;
-
-  font-family: Futura PT;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 31px;
-  color: #171717;
 }
-.stolovka{
-position: absolute;
-width: 488px;
-height: 199px;
-margin-left: 212px;
-margin-top: 80px;
+#big{
 font-family: Futura PT;
 font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 26px;
-color: #252525;
-}
-.fstolovka{
-position: absolute;
-width: 1016px;
-height: 571px;
-margin-left: 212px;
-top: 2201px;
-background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(покровкастоловая.png);
-background-blend-mode: color, normal;
+font-weight: 460;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+color: #000000;
+width: 700px;
+height: 107px;
+margin-top: 118px;
+margin-left: 358px;
 }
