@@ -1,17 +1,15 @@
 @import "reset.css";
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap&subset=cyrillic');
 
 body{
+font-family: 'Ubuntu', sans-serif;
 position: relative;
 width: 1440px;
-height: 14822px;
 margin: 0 auto;
-
-background: #FFFFFF
+background: #FFFFFF;
 }
 
-
-.black{
+.black {
   background: #000;
   width: 1100px;
   height: 800px;
@@ -20,125 +18,404 @@ background: #FFFFFF
   margin-top: -30px;
   padding-left: 170px;
   padding-right: 170px;
-
 }
-#one{
-  position: absolute;
-  width: 840px;
-height: 260px;
-z-index: 2;
-color: #FFFFFF;
-
-margin-top: 170px;
-font-family: Futura PT;
-font-style: normal;
-font-weight: bold;
-font-size: 70px;
-line-height: 70px;
-}
-#two{
-  font-family: Futura PT;
-  font-style: normal;
+h2 {
+  font-size: 60px;
   font-weight: bold;
-  font-size: 70px;
   line-height: 70px;
   position: absolute;
-  margin-top: 486px;
-  text-align: left;
   color: #FFFFFF;
+}
+.one {
+  position: absolute;
+  width: 700px;
+  height: 260px;
+  margin-top: 170px;
+}
+.two {
+  margin-top: 486px;
   width: 500px;
   height: 180px;
   margin-left: 595px;
 
 }
-.vector32{
-  position: absolute;
-width: 566.2px;
-height: 112.72px;
-left: 315px;
-top: 719.78px;
+.pasta {
+position: absolute;
+width: 379px;
+height: 701px;
+left: 811px;
+top: 316px;
+z-index: 4;
+display: block;
+}
+.num {
+position: absolute;
+width: 174.59px;
+height: 187.42px;
+margin-left: 1185px;
+margin-top: -120px;
 z-index: 2;
 }
-h2{
-position: absolute;
-width: 592px;
-height: 294px;
-left: calc(50% - 592px/2 + 16px);
-top: 257px;
-font-family: Futura PT;
-font-style: normal;
-font-weight: 300;
-font-size: 60px;
-line-height: 60px;
-text-align: center;
-color: #FFFFFF;
-}
-#pink{
+
+.yellow {
   position: absolute;
-width: 623.98px;
-height: 1274.45px;
-left: 348.5px;
-top: 747.91px;
-z-index: 3;
+  width: 710px;
+  height: 1090px;
+  margin-left: 310px;
+  top: 983px;
+  z-index: 3;
 }
-#end{
+.end {
   position: absolute;
-width: 30px;
-height: 44px;
-left: 953px;
-top: 1970px;
+  width: 30px;
+  height: 44px;
+  left: 953px;
+  top: 1970px;
 }
-h4{
+.aboutburger {
+  width: 1440px;
+}
+h4 {
   margin-top: 200px;
-  font-family: Futura PT;
-font-style: normal;
-font-weight: 300;
-font-size: 60px;
-line-height: 60px;
-color: #000000;
-width: 480px;
-height: 528px;
-margin-left: 170px;
-display: block;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  width: 400px;
+  height: 528px;
+  margin-left: 170px;
+  display: block;
 }
-#burger{
-display: block;
-width: 760.38px;
-height: 466.59px;
-margin-top: -620px;
-margin-left: 755px;
-z-index: 4;
-background: url(бургер-01.png);
-transform: rotate(-13.43deg);
+.burger {
+  display: block;
+  width: 760.38px;
+  height: 466.59px;
+  margin-top: -620px;
+  margin-left: 755px;
+  z-index: 1;
+  transform: rotate(-13.43deg);
 
 }
-#line3{
+.line3 {
   display: block;
   margin-top: -515px;
   margin-left: 850px;
 }
-#want{
+.want {
   display: block;
-  font-family: Futura PT;
-font-style: normal;
-font-weight: bold;
-font-size: 90px;
-line-height: 70px;
-color: #000000;
-margin: 430px 395px 0 395px;
-position: relative;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 70px;
+  color: #000000;
+  margin: 550px 395px 0 395px;
+  position: relative;
+
 
 }
-#big{
-font-family: Futura PT;
-font-style: normal;
-font-weight: 460;
-font-size: 36px;
-line-height: 50px;
-text-align: center;
-color: #000000;
-width: 700px;
-height: 107px;
-margin-top: 118px;
-margin-left: 358px;
+.big {
+  font-weight: 460;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  width: 750px;
+  height: 107px;
+  margin-top: 80px;
+  margin-left: 358px;
+}
+.stars5 {
+  width: 530px;
+  height: 108.57px;
+  margin-left: 440px;
+  display: block;
+  margin-top: 253px;
+}
+.sousage {
+  margin-top: 100px;
+  z-index: 3;
+  position: absolute;
+  margin-left: -140px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
+  color: #000000;
+}
+#h31 {
+  position: absolute;
+  width: 508px;
+  height: 104px;
+  padding-left: 745px;
+  margin-top: -150px;
+}
+pinkthing {
+  position: absolute;
+
+}
+.onediv {
+  width: 1440px;
+  position: relative;
+  height: 450px;
+  margin-top: -120px;
+}
+p {
+  font-size: 20px;
+  line-height: 26px;
+  color: #252525;
+}
+span {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #252525;
+}
+h5 {
+  width: 700px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 38px;
+  color: #171717;
+}
+.twodiv {
+  position: relative;
+  margin-top: 429px;
+  padding-left: 221px;
+  padding-right: 221px;
+}
+
+#pinkone {
+  width: 738px;
+  height: 470px;
+  margin-left: 560px;
+  background: #FEC9E1;
+  z-index: -1;
+  margin-top: -340px;
+}
+.leftblock ul {
+  display: flex;
+}
+.leftp,
+.rightp {
+  width: 462px;
+  height: 277px;
+}
+.leftblock,
+.rightblock {
+  padding: 0 221px;
+}
+.leftblock {
+  z-index: 1;
+  width: 998px;
+}
+.leftt {
+  width: 470px;
+  padding-left: 68px;
+  padding-top: 11px;
+}
+.leftadd {
+  width: 470px;
+  margin-left: 530px;
+  margin-top: -48px;
+}
+.head {
+  padding-bottom: 70px;
+}
+div ul {
+  display: flex;
+}
+div div ul li:nth-of-type(2n+2) {
+  width: 250px;
+  padding-left: 15px;
+}
+div div ul li:nth-child(2) {
+margin-right: 50px;
+}
+
+.leftaddtwo {
+  padding-top: 46px;
+  padding-left: 68px;
+}
+#blockpink1,
+#yellowblock,
+#yellowblock2,
+#purpleblock,
+#purpleblock2,
+#pinkblock2,
+#greenblock {
+  width: 1440px;
+  background-repeat: no-repeat;
+}
+
+#blockpink1 {
+  background-image: url(../img/blockpink1.png);
+  height: 470px;
+  padding-top: 35px;
+  padding-bottom: 63px;
+  left: 221px;
+  margin-top: 50px;
+}
+.rightblock ul {
+  display: flex;
+  }
+.rightp {
+  margin-left: -110px;
+}
+.rightt {
+  width: 455px;
+}
+div.rightblock ul {
+  padding-top: 70px;
+}
+.rightadd{
+  margin-top: -24px;
+}
+.eat {
+  width: 377px;
+  height: 220px;
+  z-index: 3;
+  margin-left: 940px;
+  margin-top: -430px;
+  position: absolute;
+
+}
+#yellowblock {
+  background-image: url(../img/yellowblock.png);
+  position: absolute;
+  height: 400px;
+  margin-bottom: 400px;
+  padding-top: 28px;
+  margin-top: 122px;
+}
+#basman {
+  margin-top: 700px;
+}
+#yellowblock2 {
+  background-image: url(../img/yellowblock2.png);
+  padding-top: 35px;
+  padding-bottom: 66px;
+  margin-top: 120px;
+}
+#purpleblock {
+  background-image: url(../img/purpleblock.png);
+  padding-top: 66px;
+  padding-bottom: 75px;
+  margin-top: 110px;
+}
+#purpleblock2 {
+  background-image: url(../img/purpleblock2.png);
+  padding-bottom: 100px;
+  margin-top: 120px;
+}
+#pinkblock2 {
+  background-image: url(../img/pinkblock2.png);
+  padding-top: 30px;
+  margin-top: 150px;
+}
+#greenblock {
+  background-image: url(../img/greenblock.png);
+  padding-top: 52px;
+  margin-top: 120px;
+}
+.h32 {
+  width: 508px;
+  height: 104px;
+  margin-left: 0px;
+  margin-top: 98px;
+}
+.head2 {
+  margin-top: 280px;
+  z-index: -1;
+}
+.stars4 {
+  margin-left: 504px;
+}
+.eggs {
+  margin-top: -300px;
+}
+.h33 {
+
+  width: 508px;
+  height: 104px;
+  margin-left: -300px;
+  margin-top: 98px;
+}
+.stars3 {
+  margin-left: 555px;
+}
+.shaurma {
+  margin-left: -250px;
+  margin-top: -350px;
+}
+.shaurmathing {
+  margin-top: -140px;
+  margin-left: -80px;
+  width: 370px;
+  height: 452px;
+}
+#head3 {
+  width: 1440px;
+}
+#basemant {
+  width: 1440px;
+  height: 500px;
+  background: #171717;
+  padding-top: 90px;
+  padding-left: 221px;
+  margin-top: -150px;
+}
+#endh5 {
+  color: #FFFFFF;
+  width: 625px;
+  height: 173px;
+}
+#endp {
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+#info {
+  padding-top: 43px;
+}
+#insta {
+  padding-right: 36px;
+}
+#bignum {
+  margin-left: 920px;
+  width: 500px;
+  height: 300px;
+  transform: rotate(-4.47deg);
+  z-index: 1;
+  margin-top: 190px;
+}
+#purplearrow {
+  position: absolute;
+  width: 790px;
+  height: 1788px;
+  left: 670px;
+  top: 7620px;
+}
+.help {
+  background-color: grey;
+  height: 140px;
+  width: 500px;
+}
+.block4{
+  margin-top: -200px;
+}
+#block7{
+  margin-top: 110px;
+}
+#shabolovka {
+  margin-top: 120px;
+}
+#head3{
+  margin-top: 280px;
+}
+#shabolovka2 {
+  margin-top: -230px;
+}
+#finalblock {
+ margin-top: 180px;
 }
